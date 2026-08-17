@@ -1,3 +1,36 @@
-boby{
-    background-image: ;
+body{
+background-image: url("fundo.jpg");
+       background-size: 20%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.holanda{
+    width: 40%;
+    background-color: rgba(255, 248, 220, 0.86);
+    margin: auto;
+    border-radius: 15%;
+    border-style: dotted;
+}
+.holanda img {
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+h1 {
+    margin-top: 15px;
+    margin-bottom: 5px;
+    color: #030303;
+}
+.subtitulo {
+    font-weight: bold;
+    color: #f71a1a;
+    margin-bottom: 15px;
+}
+p {
+    color: #4719ff;
+    font-size: 0.95rem;
+    line-height: 1.4;
 }
